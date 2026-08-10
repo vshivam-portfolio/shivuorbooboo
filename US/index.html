@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ff4f87" />
+    <meta name="description" content="A tiny website made with a lot of love." />
+    <title>us, actually ♡</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="luxury.css" />
+  </head>
+  <body>
+    <!-- CUSTOMIZE: change names, dates, messages, photo URLs and the song source here. -->
+    <div class="noise" aria-hidden="true"></div>
+    <div class="orb orb-one" aria-hidden="true"></div><div class="orb orb-two" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a class="logo" href="#home">us<span>♡</span></a>
+      <button class="sound-button" id="soundButton" aria-label="Play our song" aria-pressed="false">
+        <span class="equalizer" aria-hidden="true"><i></i><i></i><i></i></span><span id="soundText">our song</span>
+      </button>
+    </header>
+
+    <main id="home">
+      <section class="hero section">
+        <div class="hero-copy rise">
+          <p class="kicker">a digital love note for <span class="her-name">Shweta</span> ♡</p>
+          <h1>you’re my<br /><em>favourite</em><br />plot twist. 
+            Boo Boo
+          </h1>
+          <p class="hero-text">Somehow you turned my everyday life into something I never want to skip through.</p>
+          <a class="pill pink" href="#vibes">scroll for the receipts <span>↓</span></a>
+        </div>
+        <div class="hero-collage rise delay-1" aria-label="A collage celebrating your relationship">
+          <!-- CUSTOMIZE: replace the three sample photo links below with your own images. -->
+          <img class="polaroid photo-a" src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=700&q=85" alt="Couple laughing together" />
+          <img class="polaroid photo-b" src="images/IMG-20250912-WA0003_Original.jpg" alt="Couple walking in a field" />
+          <div class="sticker heart-sticker">♥</div><div class="sticker star-sticker">✦</div>
+          <p class="scribble">so lucky<br />it’s unreal</p>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Love note"><div>best thing that happened to me <span>✦</span> best thing that happened to me <span>✦</span> best thing that happened to me <span>✦</span></div></section>
+
+      <section class="section vibe-section" id="vibes">
+        <div class="section-intro rise"><p class="kicker">the vibe check</p><h2>you + me =<br /><em>elite duo</em></h2></div>
+        <div class="vibe-grid">
+          <article class="vibe-card lime rise"><span class="card-number">01</span><span class="big-emoji">☀</span><h3>your energy</h3><p>Instant mood upgrade. Honestly, how do you make everything more fun?</p></article>
+          <article class="vibe-card lavender rise delay-1"><span class="card-number">02</span><span class="big-emoji">☕</span><h3>our tiny things</h3><p>Inside jokes, random calls, and the most ordinary moments becoming core memories.</p></article>
+          <article class="vibe-card peach rise delay-2"><span class="card-number">03</span><span class="big-emoji">∞</span><h3>the feeling</h3><p>Safe, seen, and completely myself. That’s what you are to me.</p></article>
+        </div>
+      </section>
+
+      <section class="section stats-section">
+        <div class="stats-box rise"><p class="kicker">the relationship report</p><div class="stats"><div><strong>100%</strong><span>my favourite person</span></div><div><strong>∞</strong><span>reasons to smile</span></div><div><strong>24/7</strong><span>thinking of you</span></div></div><p class="tiny-note">* totally peer reviewed by my heart.</p></div>
+      </section>
+
+      <section class="section rituals-section">
+        <div class="rituals-copy rise"><p class="kicker">the little things</p><h2>my favourite<br /><em>versions of us</em></h2><p>Not the big cinematic moments—though I love those too. These are the small ones I replay when I miss you.</p></div>
+        <div class="rituals-grid">
+          <article class="ritual rise"><span>01</span><h3>the good morning text</h3><p>The smallest message, the biggest shift in my whole day.</p></article>
+          <article class="ritual rise delay-1"><span>02</span><h3>our random calls</h3><p>We never have a plan, but somehow I never want to hang up.</p></article>
+          <article class="ritual rise delay-2"><span>03</span><h3>your laugh</h3><p>My personal favourite sound in the entire universe.</p></article>
+          <article class="ritual rise"><span>04</span><h3>being quiet together</h3><p>Even the silence feels full when it has you in it.</p></article>
+        </div>
+      </section>
+
+      <section class="section memories-section" id="memories">
+        <div class="section-intro rise"><p class="kicker">proof that we’re cute</p><h2>the <em>memory dump</em></h2><p>Tap any photo for the full-screen version.</p></div>
+        <div class="memory-grid">
+          <!-- CUSTOMIZE: set image src and captions to your own memories. Local files work too, e.g. src="photos/date-night.jpg". -->
+          <button class="memory wide rise" data-caption="the kind of day I wish I could replay"><img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=1000&q=85" alt="Couple holding hands" /><span>main character day</span></button>
+          <button class="memory rise delay-1" data-caption="everywhere feels better with you"><img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=700&q=85" alt="Couple looking at each other" /><span>us being us</span></button>
+          <button class="memory rise delay-2" data-caption="a little adventure with my favourite human"><img src="https://images.unsplash.com/photo-1506869640319-fe1a24fd76dc?auto=format&fit=crop&w=700&q=85" alt="Couple travelling together" /><span>next stop: anywhere</span></button>
+        </div>
+      </section>
+
+      <section class="section timeline-section">
+        <div class="section-intro rise"><p class="kicker">how it started / how it’s going</p><h2>our <em>lore</em></h2></div>
+        <div class="timeline">
+          <!-- CUSTOMIZE: update the dates and copy below. -->
+          <article class="timeline-item rise"><span class="date-tag">August  · 2023</span><div><h3>The Beginning</h3><p>Yeh Vahi Din Tha Jis Din Maine Pheli Bar Meri Boo Boo Ko Dekha Tha Tab Bilkul Nahi Pta Tha Ki Mai Boo Boo Se Itna Zyada Pyar Karne Lag Jaunga  </p></div></article>
+          <article class="timeline-item rise"><span class="date-tag">June · 2025</span><div><h3>The “Oh, wait…” moment</h3><p>Mere Life ka Sabse Best Din June 20 , Boo Boo Ne Mera Proposal Accept Kiya Tha , Yeh Voh Din Tha Jis Din Boo Boo Ne Mujhe ' I Love You Shivam' Bola Jo Mai Kabhi Nahi Bhul Sakta </p></div></article>
+          <article class="timeline-item rise"><span class="date-tag">RIGHT NOW</span><div><h3>still choosing you</h3><p>Ab Toh Mai Or Boo Boo Kafi Time Se Sath ,Humare Bich Kafi Ups And Down Hue Hai Humne Ek Dusre ko Bhot Hurt Bhi Kiya Hai , Itne Time Me But Hum Dono Ne Kabhi Give Up Nhi Kiya Touchwood 🧿 Yehi Ek Reason Hai Ki Hum Har Roz Ek Dusre Ko Choose Karte Hai Jo Humari Sabse Badi Strength Hai </p></div></article>
+        </div>
+      </section>
+
+      <section class="section letter-section">
+        <div class="letter-layout rise"><div><p class="kicker">no jokes for a second</p><h2>a note from<br /><em>my heart</em></h2></div><div class="letter-card"><p>Hello 😁 <span class="her-name">Boo Boo</span>,</p><p>Thank you Boo Boo mere life ka sabse best part bane ke liye or mujhe itna pyar karne ke liye </p><p>Tu Sirf Meri Partner nhi hai boo boo tu mera sab kuch hai tu mere liye bhot imp hai itni ki mai kabhi tujhe words me explain hi nhi kar paunga ,Boo Boo Mai tere se bhot pyar karta hu bhotttttttttttttttt mtlb bhottttttttttttt zyada ik tu bhi karti hai mere se but mai zyada karta hu 😁 </p><p class="signoff">with all my love,<br /><span class="your-name">Boo Boo Ka SHIVU</span></p></div></div>
+      </section>
+
+      <section class="section constellation-section">
+        <div class="constellation-card rise"><div class="constellation-copy"><p class="kicker">the stars agree</p><h2>you make<br />my world <em>glow.</em></h2><p>If I could bottle the feeling of being with you, it would look like a warm city night, a favourite song, and no reason to rush home.</p><p class="signature-line">— <span class="your-name">your name</span></p></div><div class="star-map" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><b></b><b></b><b></b></div></div>
+      </section>
+
+      <section class="section future-section">
+        <div class="future-card rise"><p class="kicker">up next:</p><h2>more <em>us</em>,<br />please.</h2><p>More cafés to try, songs to claim as ours, places to get lost in, and a million little moments we haven’t met yet.</p><div class="checklist"><span>☑ make more memories</span><span>☑ take way too many photos</span><span>☑ keep choosing each other</span></div></div>
+      </section>
+
+      <section class="section dates-section">
+        <div class="section-intro rise"><p class="kicker">wishlist, but make it us</p><h2>dates I’m already<br /><em>claiming with you</em></h2></div>
+        <div class="date-list rise"><div><span>01</span><p>Dress up for no reason and go somewhere with tiny desserts.</p><b>soon</b></div><div><span>02</span><p>Take a late-night drive with our song too loud.</p><b>this year</b></div><div><span>03</span><p>Book the trip we keep saying we’ll take.</p><b>non-negotiable</b></div></div>
+      </section>
+
+      <section class="section finale" id="surprise">
+        <div class="rise"><p class="kicker">the big question</p><h2>will you keep being<br />my <em>favourite person?</em></h2><div class="final-buttons"><button class="pill pink" id="yesButton">obviously, yes ♡</button><button class="pill outline" id="maybeButton">hmm…</button></div><p class="final-answer" id="finalAnswer" aria-live="polite"></p></div>
+      </section>
+    </main>
+
+    <footer><span>made with a mildly embarrassing amount of love</span> <strong class="your-name">your name</strong> ♡</footer>
+    <div class="photo-modal" id="photoModal" hidden role="dialog" aria-modal="true" aria-label="Photo memory"><button id="closeModal" aria-label="Close photo">×</button><img id="modalImage" alt="" /><p id="modalCaption"></p></div>
+    <!-- CUSTOMIZE: add an MP3 to this folder and set src="your-song.mp3" to enable music. -->
+    <audio id="ourSong" loop preload="none"><source src="" type="audio/mpeg" /></audio>
+    <script src="script.js"></script>
+  </body>
+</html>

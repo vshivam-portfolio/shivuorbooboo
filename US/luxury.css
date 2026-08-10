@@ -1,0 +1,23 @@
+/* Luxury evening theme overrides. Keep this file linked after styles.css. */
+:root { --ink:#160e17; --cream:#f5eee4; --pink:#c9828f; --hot:#d39a9c; --lime:#d8c288; --lavender:#73566a; --peach:#9b655c; --purple:#513144; --gold:#d9bd7d; --wine:#3d1e31; }
+body { background:linear-gradient(135deg,#171018,#291a25 52%,#171018); color:var(--cream); }
+.orb-one { background:#855c75; }.orb-two { background:#80654d; }
+.logo { color:var(--cream); }.logo span { color:var(--gold); }
+.sound-button { border-color:#f5eee470; color:var(--cream); background:#ffffff0a; }.sound-button:hover { background:var(--cream); color:var(--ink); }
+.pill { border-color:var(--cream); color:var(--cream); }.pill:hover { box-shadow:4px 4px 0 var(--gold); }.pink { background:var(--pink); color:var(--ink); border-color:var(--pink); }
+.ticker { background:var(--gold); color:var(--ink); }.ticker span { color:var(--wine); }
+.vibe-card { border-color:#f5eee440; }.lime { background:#9d875d; color:var(--ink); }.lavender { background:#73566a; }.peach { background:#9b655c; }
+.stats-box { background:linear-gradient(130deg,#553247,#24141e); border:1px solid #d9bd7d59; }.stats-box .kicker { color:var(--gold); }
+.memories-section { background:#2a1721; }.memory { border-color:#d9bd7d70; }
+.timeline-section { background:#110a11; }.timeline-section em { color:var(--gold); }
+.letter-section { background:linear-gradient(135deg,#724657,#351b2a); }.letter-card { background:#f5eee4; color:#21121d; box-shadow:12px 12px 0 #160e17; }
+.future-card { background:#9d875d; color:#1d1018; border-color:#d9bd7d; }.future-card em { color:#4e2036; }
+.finale .pink { color:var(--ink); } footer { background:#100910; } footer strong { color:var(--gold); }
+
+.rituals-section { display:grid; grid-template-columns:.75fr 1.25fr; gap:clamp(2rem,7vw,7rem); align-items:center; }
+.rituals-copy>p:last-child { max-width:25rem; color:#f5eee4b5; line-height:1.75; }.rituals-copy em { color:var(--gold); }
+.rituals-grid { display:grid; grid-template-columns:1fr 1fr; gap:.8rem; }.ritual { padding:1.5rem; min-height:13rem; background:#ffffff0a; border:1px solid #d9bd7d4a; }.ritual:hover { background:#ffffff13; }.ritual>span { color:var(--gold); font:500 .65rem var(--mono); }.ritual h3 { margin:2.4rem 0 .5rem; font:600 1.6rem var(--serif); }.ritual p { color:#f5eee4ad; line-height:1.55; font-size:.85rem; margin:0; }
+.constellation-section { padding-top:2rem; }.constellation-card { background:linear-gradient(120deg,#20101d,#483248); border:1px solid #d9bd7d63; min-height:32rem; display:grid; grid-template-columns:1fr 1fr; overflow:hidden; }.constellation-copy { padding:clamp(2rem,7vw,6rem); }.constellation-copy em { color:var(--gold); }.constellation-copy>p:not(.kicker) { max-width:26rem; line-height:1.7; color:#f5eee4bd; }.signature-line { color:var(--gold)!important; font:italic 1.4rem var(--serif); margin-top:2rem; }
+.star-map { position:relative; min-height:22rem; background:radial-gradient(circle at 70% 30%,#d9bd7d24,transparent 20%),radial-gradient(circle at 30% 80%,#be7e9430,transparent 30%); }.star-map i { position:absolute; width:5px; height:5px; background:var(--gold); border-radius:50%; box-shadow:0 0 12px var(--gold); }.star-map i:nth-child(1){left:20%;top:25%}.star-map i:nth-child(2){left:50%;top:13%}.star-map i:nth-child(3){left:72%;top:36%}.star-map i:nth-child(4){left:38%;top:54%}.star-map i:nth-child(5){left:67%;top:72%}.star-map i:nth-child(6){left:16%;top:82%}.star-map b { position:absolute; height:1px; background:#d9bd7d73; transform-origin:left; }.star-map b:nth-of-type(1){width:35%;left:20%;top:26%;transform:rotate(-17deg)}.star-map b:nth-of-type(2){width:31%;left:50%;top:14%;transform:rotate(44deg)}.star-map b:nth-of-type(3){width:39%;left:39%;top:55%;transform:rotate(25deg)}
+.dates-section { padding-top:3rem; }.dates-section em { color:var(--gold); }.date-list { margin-top:3rem; border-top:1px solid #d9bd7d70; }.date-list>div { display:grid; grid-template-columns:4rem 1fr auto; gap:1rem; align-items:center; padding:1.2rem 0; border-bottom:1px solid #d9bd7d70; }.date-list span,.date-list b { font:500 .65rem var(--mono); text-transform:uppercase; color:var(--gold); }.date-list p { margin:0; font:600 clamp(1.2rem,2.3vw,2rem) var(--serif); }
+@media (max-width:700px) { .rituals-section,.constellation-card { grid-template-columns:1fr; }.rituals-grid { grid-template-columns:1fr; }.ritual { min-height:10rem; }.ritual h3 { margin:1.3rem 0 .5rem; }.star-map { min-height:16rem; }.date-list>div { grid-template-columns:2.5rem 1fr; }.date-list b { grid-column:2; } }
